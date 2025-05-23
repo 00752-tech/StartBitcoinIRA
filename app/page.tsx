@@ -51,8 +51,8 @@ export default function Home() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-[#F9F7F5]">
           <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-              <div className="flex flex-col justify-center space-y-6">
+            <div className="grid gap-0 lg:grid-cols-[1fr_1fr] items-center pl-0 md:pl-[148px] lg:pl-[180px]">
+              <div className="flex flex-col justify-center space-y-6 pr-0 md:pr-4 lg:pr-0">
                 <div className="space-y-4">
                   <div className="text-sm md:text-base tracking-widest font-montserrat font-medium text-navy">
                     BEYOND BITCOIN: MULTI-CHAIN IRA SOLUTIONS
@@ -66,7 +66,7 @@ export default function Home() {
                       <span className="text-gold">Generational Wealth</span>
                     </div>
                   </h1>
-                  <p className="font-montserrat font-light text-lg md:text-2xl text-[#4A4A4A] max-w-[600px]">
+                  <p className="font-montserrat font-light text-sm md:text-base text-[#4A4A4A] max-w-[550px]">
                     For families building lasting legacies, a{" "}
                     <span className="text-navy font-medium">Dynasty Bitcoin IRA</span> offers the only{" "}
                     <span className="text-gold font-medium">tax-free</span> path to grow and transfer cryptocurrency
@@ -91,14 +91,16 @@ export default function Home() {
                   </Button>
                 </div>
               </div>
-              <div className="flex items-center justify-center">
-                <img
-                  alt="Professional Bitcoin IRA advisor in navy suit"
-                  className="object-cover object-center w-full h-auto"
-                  src="/bitcoin-investor.png"
-                  width="600"
-                  height="600"
-                />
+              <div className="flex items-center justify-center lg:justify-start">
+                <div className="w-[90%] h-auto">
+                  <img
+                    alt="Affluent client in navy blue suit"
+                    className="object-cover object-center w-full h-auto max-h-[650px] rounded-lg"
+                    src="/affluent-client.png"
+                    width="800"
+                    height="800"
+                  />
+                </div>
               </div>
             </div>
           </div>
